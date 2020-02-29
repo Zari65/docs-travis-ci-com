@@ -10,8 +10,8 @@ gem 'jekyll-paginate'
 
 gem 'rack-jekyll'
 gem 'rack-ssl-enforcer'
-gem 'puma'
+gem 'puma', '>= 3.12.2'
 
-gem 'rake'
+gem 'rake', '>= 12.3.3'
 
-gem 'html-proofer', '~> 3.0'
+gem 'html-proofer', '~> 3.4', '>= 3.4.0'
